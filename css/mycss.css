@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #2f2f2f;
+    color: aliceblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.secprincial{
+    height: 100vh;
+    width: 100%;
+    border: 3px solid yellow;
+}
+
+.sec1{
+    border: 3px solid red;
+    height: 7%;
+    width: 100%;
+    align-items: center;
+    
+    /*height: 180px;
+    width: 800px;
+    border: 3px solid red ;
+    flex-grow: 1;*/
+}
+
+.sec1 img{
+    height: 100%;
+}
+
+.sec2{
+    height: 91%;
+    width: 100%;
+    border: 3px solid blue;
+    display: flex;
+}
+
+.div1{
+    width: 50%;
+    align-items: center;
+}
+.div2{
+    width: 50%;
+}
+
+.div1-up{
+    border: 3px solid green;
+    height: 42%;
+    width: 100%;
+    align-items: center;
+}
+
+.div1-up img{
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+        
+}
+.div1-middle{
+    border: 3px solid rgb(46, 117, 46);
+    height: 16%;
+    width: 100%;
+    align-content: center;
+}.div1-down{
+    border: 3px solid rgb(83, 124, 83);
+    height: 42%;
+    width: 100%;
+}
+.div1-down img{
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+
+
+.div2-form{
+    align-items: center;
+    border: 3px solid pink;
+}
+
+
+
+
+
+
+
+
+
+
+.sec3{
+    height: 450px;
+    width: 100%;
+    
+    border: 3px solid red ;
+    display: flex;
+    /*align-items: center;*/
+}
+
+.sec3div1{
+    height: 100%;
+    flex-grow: 1.5;
+    border: 3px solid blue ;
+        
+}
+.sec3div1 img{
+    max-width:100%;
+    max-height:100%;
+    width: auto;
+    height: auto;   
+
+    
+
+}
+
+.sec3div2{
+    height: 100%;
+    flex-grow: 1;
+    border: 3px solid blue ;
+    /*justify-content: space-between;*/ 
+}
+
+.sec3div2 form{
+    max-height: 300px;
+    max-width: 120px ;
+}
+
+.sec3div3{
+    height: 100%;
+    
+    flex-grow: 0.5;
+    
+    border: 3px solid rgb(17, 160, 72) ;
+    
+}
+.sec4{
+    height: 800px;
+    
+    border: 3px solid red ;
+}
